@@ -8,7 +8,7 @@ const App = () => (
     <hr />
     <div className="row">
       <div className="col-md-6 aboutSections">
-        <img className="profilePic profilePic1" src="../static/pics/DSC_6082.jpg" alt="profilepic" />
+        <img className="profilePic profilePic1" src="./Images/Val.png" alt="profilepic" />
       </div>
       <div className="col-md-6 aboutSections">
        <div class="col-sm-12">
@@ -38,14 +38,14 @@ const App = () => (
       <div className="col">
         <div className="row">
           <div className="col-sm-6">
-            <IconImage source="../static/pics/html.png" alt="html" />
-            <IconImage source="../static/pics/bootstrap.png" alt="bootstrap" />
-            <IconImage source="../static/pics/css.png" alt="css" />
+            <IconImage source="." alt="html" />
+            <IconImage source="" alt="bootstrap" />
+            <IconImage source="" alt="css" />
           </div>
           <div className="col-sm-6">
-            <IconImage source="../static/pics/githubIcon.png" alt="github" />
-            <IconImage source="../static/pics/handlebars.png" alt="handlebars" />
-            <IconImage source="../static/pics/javascript.png" alt="javascript" />
+            <IconImage source="" alt="github" />
+            <IconImage source="" alt="handlebars" />
+            <IconImage source="." alt="javascript" />
           </div>
         </div>
       </div>
@@ -54,14 +54,14 @@ const App = () => (
       <div className="col">
         <div className="row">
           <div className="col-sm-6">
-            <IconImage source="../static/pics/jquery.png" alt="jquery" />
-            <IconImage source="../static/pics/mern.jpg" alt="mern" />
-            <IconImage source="../static/pics/mongodb.png" alt="mongodb" />
+            <IconImage source="" alt="jquery" />
+            <IconImage source="" alt="mern" />
+            <IconImage source="." alt="mongodb" />
           </div>
           <div className="col-sm-6">
-            <IconImage source="../static/pics/mysql.png" alt="mysql" />
-            <IconImage source="../static/pics/nodejs.png" alt="node" />
-            <IconImage source="../static/pics/React.png" alt="react" />
+            <IconImage source="." alt="mysql" />
+            <IconImage source="." alt="node" />
+            <IconImage source="." alt="react" />
           </div>
         </div>
       </div>
