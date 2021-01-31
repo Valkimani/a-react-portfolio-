@@ -1,6 +1,6 @@
 import App, { Container } from 'next/app';
 import Head from 'next/head';
-import Favicon from 'react-favicon';
+// import Favicon from 'react-favicon';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
@@ -39,7 +39,7 @@ class MainApp extends App {
             crossOrigin="anonymous"
           />
         </Head>
-        <Favicon url="../static/pics/letterD.ico" />
+        {/* <Favicon url="letterD.ico" /> */}
         <div className="container mainContainer">
           <Component {...pageProps} />
         </div>

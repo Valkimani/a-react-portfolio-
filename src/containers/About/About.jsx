@@ -5,7 +5,7 @@ import Navbar from './components/navbar'
 const App = () => (
   <div>
     <Navbar />
-    <Jumbotron phrase="From a Hotelier to a Developer." subtitle="The story of my transition from serving clients to creating Clients as a software development" />
+    <Jumbotron phrase="From a Hotelier to a Developer." subtitle="Transitioning from serving clients to creating Clients as a software developer." />
     <h3>My Story</h3>
     <hr />
     <div className="row">
@@ -23,7 +23,7 @@ const App = () => (
 </div>
 
   <h4 className="bio bio1">
-        Before transitioning into web and software development, I diligently worked in the Food and Beverage industry as an Intern in downtown Atlanta area. While in the hotel industry, I found myself enjoying the technical and computer driven aspects of the restaurant operations which lead me to pursue a career in tech. The same interest has lead me to pursue a Full stack Web Development certification at Georgia Tech.
+        Before transitioning into web and software development, I worked in the Food and Beverage industry as an Intern in downtown Atlanta area. While in the hotel industry, I found myself enjoying the technical and computer driven aspects of the restaurant operations which lead me to pursue a career in tech. The same interest has lead me to pursue a Full stack Web Development certification at Georgia Tech.
         My customer service, hotel experience and tech support positions bring a fresh prospective to technical roles as it showcases my detailed oriented, organizational and problem solving while creating quality products through collaborative teamwork.
         in any job I perform. When I'm not helping clients out with issues over the phone and answering their emails, I spend time taking Latin dance classes, exercising and going for hikes. Valentine Kimani is a CRM technical support of a Real Estate company with experience troubleshooting
         platform issues, using different software’s. I specialize in HTML, CSS, JavaScript, and React on the front-end as well as Node
