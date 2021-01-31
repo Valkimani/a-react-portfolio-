@@ -1,9 +1,11 @@
 import React from 'react';
+import Navbar from './components/navbar'
+
 
 const App = () => (
   <div>
     <Navbar />
-    <Jumbotron phrase="From Hotelier to a Developer." subtitle="The story of my transition from serving clients to creating Clients as a software development" />
+    <Jumbotron phrase="From a Hotelier to a Developer." subtitle="The story of my transition from serving clients to creating Clients as a software development" />
     <h3>My Story</h3>
     <hr />
     <div className="row">
@@ -11,9 +13,11 @@ const App = () => (
         <img className="profilePic profilePic1" src="./Images/Val.png" alt="profilepic" />
       </div>
       <div className="col-md-6 aboutSections">
-       <div class="col-sm-12">
-  <div class="pull-left"><img src="Images/VAL.png" alt="sunset"></div>
-  <div class="pull-left">
+       <div className="col-sm-12">
+  <div className="pull-left"><img src="Images/VAL.png" alt="sunset">
+
+  </img>
+  <div className="pull-left">
 </div>
 <div>
 </div>
@@ -38,7 +42,7 @@ const App = () => (
       <div className="col">
         <div className="row">
           <div className="col-sm-6">
-            <IconImage source="." alt="html" />
+            <IconImage source="" alt="html" />
             <IconImage source="" alt="bootstrap" />
             <IconImage source="" alt="css" />
           </div>
